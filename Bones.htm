@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Birthday Paradox Calculator</title>
+	<link rel='stylesheet' href='style.css'/>
+	<script src='script.js'></script>
+</head>
+<body>
+<div class="calculator">
+  <h1>Birthday Paradox Calculator</h1>
+  <p>Calculate the probability of someone having the same birthday as you by typing in how many people there are!</p>
+  <p>Ammount of people: <input type=number id="people"></p>
+    <button onClick="start()" id="btn1">Calculate</button>
+    <p>Probability = <span id="result">0</span>%</p>
+    <h3>How It Works</h3>
+    <p>First it calculates the ammount of combinations there are by how many people, then it uses the negative result(y) over 365 as the power for <em>e</em>. Heres the equation used:
+    <img src="https://latex.codecogs.com/gif.latex?%7B%5Ccolor%7BMagenta%7D%20Pr%28X%3E0%29%3DPr%28X%3D0%29%5Capprox%201%20-%20e%5E%7B-y%7D%20%5Capprox%201%20-%20Y%20%3D%20Z%7D"> </p>
+</div>
+<br>
+<div class= "calculator2">
+    <h1>Probability of winning The Powerball</h1>
+    <p>Calculate the probability of someone having the same birthday as you by typing in how many people there are!</p>
+  <p>Ammount of tickets: <input type=number id="tickets"></p>
+    <button onClick="start2()" id="btn2">Calculate</button>
+    <p>Probability = <span id="result2">0</span>%</p>
+    <p>Probability(Without Powerball) = <span id="result2-1">0</span>%</p>
+    <h3>How it works</h3>
+    <p>It is a <strong>1/280962825</strong> chance of winning The Powerball (as of 2015 with 69 regular numbers and 25 power) and a <strong>1/11238513</strong> chance of winning without The Powerball. The equation for the ammount of combinations for each set of numbers is: <br> <span id="equation">C(n,r) = n! / ( r!(n - r)! ).</span></p>
+</div>
+
+</body>
+</html>
