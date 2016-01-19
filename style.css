@@ -1,0 +1,77 @@
+/* Birthday Calculator */
+.calculator {
+    height: 450;
+    width: 400;
+    background-image: linear-gradient(to top right,#CCFFFF, #CCCCFF);
+    padding: 10px;
+    border-top: 5px solid #CC99FF;
+    border-left: 5px solid #CC99FF;
+    border-bottom: 5px solid #CC66FF;
+    border-right: 5px solid #CC66FF;
+    border-radius: 3px;
+    font-family: monospace;
+    font-size: 15px;
+}
+#people {
+    background-color: #CCCCFF;
+     border-top: 5px solid #CC99FF;
+    border-left: 5px solid #CC99FF;
+    border-bottom: 5px solid #CC66FF;
+    border-right: 5px solid #CC66FF;
+    border-radius: 3px;
+}
+#btn1 {
+    background-color: #CCCCFF;
+    font-family: monospace;
+        border-top: 5px solid #CC99FF;
+    border-left: 5px solid #CC99FF;
+    border-bottom: 5px solid #CC66FF;
+    border-right: 5px solid #CC66FF;
+    border-radius: 3px;
+}
+
+
+.calculator img {
+    width: 400px;
+    height: 25;
+}
+.calculator #result {
+    color: #CC33FF;
+}
+
+ /*2nd Calculator */
+ 
+ .calculator2 {
+       height: 500;
+    width: 400;
+    background-image: linear-gradient(to top right,#FFFF99, #FFCC99);
+    padding: 10px;
+    border-top: 5px solid #FFCC99;
+    border-left: 5px solid #FFCC99;
+    border-bottom: 5px solid #FF9966;
+    border-right: 5px solid #FF9966;
+    border-radius: 3px;
+    font-family: Verdana;
+    font-size: 15px;
+ }
+ #btn2 {
+     background-color: #FFCC66;
+     border-top: 5px solid #FFCC99;
+    border-left: 5px solid #FFCC99;
+    border-bottom: 5px solid #FF9966;
+    border-right: 5px solid #FF9966;
+ }
+ #result2, #result2-1 {
+     color: #FF9933;
+ }
+ #tickets {
+      background-color: #FFCC66;
+     border-top: 5px solid #FFCC99;
+    border-left: 5px solid #FFCC99;
+    border-bottom: 5px solid #FF9966;
+    border-right: 5px solid #FF9966;
+ }
+ #equation {
+     color: #FF9933;
+     font-weight: bolder;
+ }
